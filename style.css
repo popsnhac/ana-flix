@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&family=Boldonse&family=Cinzel:wght@400..900&family=Lemon&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Russo+One&display=swap');
+
+body{
+color:#c6a974
+background-color:hsl(115, 20%, 47%) ;
+margin: 0px;
+margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px #9415dd ;
+    margin: 20px;
+    font-size: 32px;
+    color: rgb(187, 14, 144);
+}
+
+section{
+     
+padding-bottom: 80px;
+padding-top: 80px;
+background: rgb(219, 18, 18);
+display: flex;
+justify-content: center;
+}
+
+h1{
+color:#bdc915 ;
+font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.categoria{
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+img{
+
+    height: 200px;
+}
+
+.categoria-videos img{
+
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+
+opacity:1.0;
+border: 3px solid #28c1cc;
+
+}
+
+.categoria h2{
+color: #5eb914;
+
+}
+
+.chamada-texto{
+    margin-right: 1%;
+    text-align: center;
+    padding: 20px;
+    background-color: #41ad03;
+    color: #399c36;
+}
